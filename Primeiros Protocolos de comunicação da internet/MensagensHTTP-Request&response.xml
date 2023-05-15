@@ -1,0 +1,39 @@
+HTTP Request
+
+
+GET - Solicita um recurso do servidor
+HEAD - GET sem corpo de resposta
+POST - submete uma entidade a um recurso
+PUT - subistituição de recursos pelos dados da requisição
+DELETE - remoção de um recurso
+TRACE - chamada de loop-back a um determinado recurso
+OPTION - opçoes de comunicação com recurso
+CONNECT - tunelamento identificado pelo recurso
+PATCH - modificação parcial
+
+HTTP Request
+      
+       Metodos seguros
+
+GET
+POST                   Operações de leitura (Read-only)
+OPTION
+
+
+HTTP Response
+
+200 OK -  request bem sucedida e objetivo enviado
+301 Moved Permanently - objeto realocado nova URL mno campo Location
+400 Bad Request - resposta genérica - servidor nao entendeu a mensagem
+404 Not Found - documento solicitado é inexistente
+505 HTTP Version not supported - versão do protocolo não suportada pelo servidor
+
+
+Classificação dos status code
+
+
+* Information response ( 100 - 199 )
+* Successful response (200 - 299)
+* redirection response (300-399)
+* Client error response (400 - 499)
+* server error response (500 - 599)

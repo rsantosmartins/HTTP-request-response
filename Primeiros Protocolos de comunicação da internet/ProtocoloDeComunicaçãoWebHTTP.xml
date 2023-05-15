@@ -1,0 +1,32 @@
+<h1>Como funciona o protocolo HTTP ? </h1>
+
+* Definido pelos RFCs 1945 e 2116
+* Protocolo de comunicação 
+* Browser -> implementa o cliente HTTP
+* servidro -> host objetos web
+
+* cliente - mensagens - Requeste HTTP (Objetos web)
+* servidor - Mensagens - Response HTTP ( Protocolo TCP)
+
+1991 1ª Web page
+
+
+Mensagens HTTP
+
+Tipos: request & response
+
+GET - Solicitar algo -> request
+POST - envia informação de cadastro ao servidor 
+
+Formatos de estruturação de dados 
+Os dois mais utilizados são XML e JSON
+
+Objetivos do XML -> Serialization - comunicação - metadados
+Objetivos do JSON -> lightweight - mais legiveis / independente de ling / simples
+
+XML e JSON em comum -> auto-descritivos - Hierarquicos - independentes de linguagem de programação
+Vasta utilizaçao
+
+TCP - Transmission COntrol Protocol 
+
+
